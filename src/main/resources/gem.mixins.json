@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jupiterr.gem.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "ChatHudMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin",
+    "RenderLayerInvoker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

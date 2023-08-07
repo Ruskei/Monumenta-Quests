@@ -1,0 +1,767 @@
+[{
+  "identifier": "tlaxan_troubles_",
+  "waypoint": null,
+  "next": [{
+    "point": "tlaxan_troubles_1",
+    "type": "CHAT",
+    "regex": "Monumenta Quests: Finding the teleporter to the starting NPC for Tlaxan Troubles\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_1",
+  "waypoint": {
+    "x": -733.5,
+    "y": 95.5,
+    "z": 72.5,
+    "name": "T'Lm (Tlaxan Troubles)",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_2",
+    "type": "LOCATION",
+    "x": -733.5,
+    "y": 95.5,
+    "z": 72.5,
+    "radius": 5
+  }, {
+    "point": "tlaxan_troubles_2",
+    "type": "CHAT",
+    "regex": "Monumenta Quests: Finding the teleporter to the starting NPC for Tlaxan Troubles\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_2",
+  "waypoint": {
+    "x": 480.5,
+    "y": 26.5,
+    "z": 50.5,
+    "name": "T'Lm (Tlaxan Troubles)",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_3",
+    "type": "CHAT",
+    "regex": "\\[T'Lm\\] Now, head back within the ruins of Velara\\. There is a side passage containing a cauldron\\. If you place water into the Cauldron, you will find the sacred herbs\\. Each time you add water, you will receive one herb\\. Be sure to bring water with you!"
+  }, {
+    "point": "tlaxan_troubles_3",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[1/2\\]: Return to Velara by going through Farr's sewers\\. Bring Water Bottles\\."
+  }, {
+    "point": "tlaxan_troubles_1",
+    "type": "CHAT",
+    "regex": "Monumenta Quests: Finding the teleporter to the starting NPC for Tlaxan Troubles\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_3",
+  "waypoint": {
+    "x": 493.5,
+    "y": 72.5,
+    "z": 131.5,
+    "name": "Sewers",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_4",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[1/2\\]: If you need more Sacred Herbs, you can get them by returning to Velara and filling the cauldron with water from a Water Bottle\\."
+  }, {
+    "point": "tlaxan_troubles_4",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Fill the cauldron in Velara with water\\. You will need three Sacred Herbs\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_4",
+  "waypoint": {
+    "x": 957.5,
+    "y": 194.5,
+    "z": 780.5,
+    "name": "Cauldron",
+    "texture": "cauldron.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_5",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Once you have three Sacred Herbs from filling the cauldron, head to the first Totem\\."
+  }, {
+    "point": "tlaxan_troubles_6",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Follow the vision of the Ziggurat to the second Totem."
+  }, {
+    "point": "tlaxan_troubles_6",
+    "type": "CHAT",
+    "regex": "As the totem powers, the wind seems to pull you north and a vision of the Ziggurat drifts into your head\\."
+  }, {
+    "point": "tlaxan_troubles_7",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Follow the pull of the wind to a location near the Air Shrine to find the third Totem\\."
+  }, {
+    "point": "tlaxan_troubles_7",
+    "type": "CHAT",
+    "regex": "As the totem powers, the wind seems to pick up and pull you violently toward the Air Shrine\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_5",
+  "waypoint": {
+    "x": 130.5,
+    "y": 99.5,
+    "z": 76.5,
+    "name": "First Totem",
+    "texture": "hyper_crystalline_shard.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_6",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Follow the vision of the Ziggurat to the second Totem\\."
+  }, {
+    "point": "tlaxan_troubles_6",
+    "type": "CHAT",
+    "regex": "As the totem powers, the wind seems to pull you north and a vision of the Ziggurat drifts into your head\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_6",
+  "waypoint": {
+    "x": 311.5,
+    "y": 122.5,
+    "z": -166.5,
+    "name": "Second Totem",
+    "texture": "hyper_crystalline_shard.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_7",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Follow the pull of the wind to a location near the Air Shrine to find the third Totem\\."
+  }, {
+    "point": "tlaxan_troubles_7",
+    "type": "CHAT",
+    "regex": "As the totem powers, the wind seems to pick up and pull you violently toward the Air Shrine\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_7",
+  "waypoint": {
+    "x": 474.5,
+    "y": 127.5,
+    "z": -51.5,
+    "name": "Third Totem",
+    "texture": "hyper_crystalline_shard.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_8",
+    "type": "CHAT",
+    "regex": "As the totem powers, the wind roars, and figures materialize around you\\."
+  }, {
+    "point": "tlaxan_troubles_8",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles: Return to T'Lm in the Magenta lobby\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_8",
+  "waypoint": {
+    "x": -733.5,
+    "y": 95.5,
+    "z": 72.5,
+    "name": "T'Lm",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_9",
+    "type": "LOCATION",
+    "x": -733.5,
+    "y": 95.5,
+    "z": 72.5,
+    "radius": 5
+  }, {
+    "point": "tlaxan_troubles_8",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles: Return to T'Lm in the Magenta lobby\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_9",
+  "waypoint": {
+    "x": 480.5,
+    "y": 26.5,
+    "z": 50.5,
+    "name": "T'Lm",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_10",
+    "type": "CHAT",
+    "regex": "\\[T'Lm\\] It is done\\. Go now and meet T'Xoc, the village elder\\. My brother\\."
+  }, {
+    "point": "tlaxan_troubles_10",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[1/2\\]: Find the entrance to the city of Ta'Eldim\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_10",
+  "waypoint": {
+    "x": 463.5,
+    "y": 86.5,
+    "z": -232.5,
+    "name": "Ta'Eldim Entrance",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "tlaxan_troubles_11",
+    "type": "LOCATION",
+    "x": 463.5,
+    "y": 86.5,
+    "z": -232.5,
+    "radius": 5
+  }, {
+    "point": "tlaxan_troubles_11",
+    "type": "CHAT",
+    "regex": "Tlaxan Troubles \\[2/2\\]: Once inside Ta'Eldim talk to T'Xoc\\."
+  }]
+}, {
+  "identifier": "tlaxan_troubles_11",
+  "waypoint": {
+    "x": 472.5,
+    "y": 196.5,
+    "z": -354.5,
+    "name": "T'Xoc",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "end",
+    "type": "CHAT",
+    "regex": "TLAXAN TROUBLES COMPLETE!"
+  }]
+}, {
+  "identifier": "crystal_connection_",
+  "waypoint": null,
+  "next": [{
+    "point": "crystal_connection_1",
+    "type": "CHAT",
+    "regex": "Monumenta Quests: Finding the starting NPC for The Crystal Connection\\."
+  }]
+}, {
+  "identifier": "crystal_connection_1",
+  "waypoint": {
+    "x": 482.5,
+    "y": 191.5,
+    "z": -347.5,
+    "name": "Macuniloh",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_2",
+    "type": "CHAT",
+    "regex": "\\[Macuniloh\\] Follow the stairs to the east, and look behind the flowers\\. A path awaits you there\\."
+  }, {
+    "point": "crystal_connection_2",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[1/2\\]: Find the path\\."
+  }]
+}, {
+  "identifier": "crystal_connection_2",
+  "waypoint": {
+    "x": 491.5,
+    "y": 187.5,
+    "z": -360.5,
+    "name": "Path",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_3",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[2/2\\]: Follow the path\\."
+  }, {
+    "point": "crystal_connection_3",
+    "type": "LOCATION",
+    "x": 491.5,
+    "y": 187.5,
+    "z": -360.5,
+    "radius": 2
+  }]
+}, {
+  "identifier": "crystal_connection_3",
+  "waypoint": {
+    "x": 307.5,
+    "y": 164.5,
+    "z": -517.5,
+    "name": "T'Lm",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_4",
+    "type": "CHAT",
+    "regex": "\\[T'Lm\\] There are those who seek ways past the magic of Ta'Eldim\\. An untethered crystal is a risk I hope none will exploit\\. Claim the crystal, and get it safely to the capital\\. Now, return to Macuniloh\\. He waits for you\\."
+  }, {
+    "point": "crystal_connection_4",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Return to Macuniloh\\."
+  }, {
+    "point": "crystal_connection_2",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[2/2\\]: Follow the path\\."
+  }]
+}, {
+  "identifier": "crystal_connection_4",
+  "waypoint": {
+    "x": 482.0,
+    "y": 191.0,
+    "z": -348.0,
+    "name": "Macuniloh",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_5",
+    "type": "CHAT",
+    "regex": "\\[Macuniloh\\] Thank you. Eldim needs you, outsider\\."
+  }, {
+    "point": "crystal_connection_5",
+    "type": "CHAT",
+    "regex": "\\[Macuniloh\\] Hurry yourself\\."
+  }, {
+    "point": "crystal_connection_5",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Talk to the Ta'Eldim Guard\\."
+  }]
+}, {
+  "identifier": "crystal_connection_5",
+  "waypoint": {
+    "x": 481.0,
+    "y": 181.0,
+    "z": -388.0,
+    "name": "Guard",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_6",
+    "type": "CHAT",
+    "regex": "\\[Ta'Eldim Gatekeeper\\] Be safe!"
+  }, {
+    "point": "crystal_connection_6",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Defeat the invaders!"
+  }]
+}, {
+  "identifier": "crystal_connection_6",
+  "waypoint": {
+    "name": null
+  },
+  "next": [{
+    "point": "crystal_connection_7",
+    "type": "CHAT",
+    "regex": "\\[Ta'Eldim Gatekeeper\\] They are gone for now\\.\\.\\. But I fear this attack has crippled our defenses, and just as we had rebuilt after you helped restore the magic's flow\\. The Sons have vowed to drive the Tlaxans extinct\\. This has happened before. T'Xoc does nothing\\. He is scared of the consequences\\."
+  }, {
+    "point": "crystal_connection_7",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Talk to the Guard\\."
+  }]
+}, {
+  "identifier": "crystal_connection_7",
+  "waypoint": {
+    "x": 481.5,
+    "y": 181.5,
+    "z": -387.5,
+    "name": "Gatekeeper",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_8",
+    "type": "CHAT",
+    "regex": "\\[Ta'Eldim Gatekeeper\\]: Of course. We must be protected\\. The Sons will never relent\\. You know the path you must walk, do you not\\? Return to Macuniloh and help this town\\."
+  }, {
+    "point": "crystal_connection_8",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Return to Macuniloh now that the Sons are defeated\\."
+  }]
+}, {
+  "identifier": "crystal_connection_8",
+  "waypoint": {
+    "x": 482.0,
+    "y": 191.0,
+    "z": -348.0,
+    "name": "Macuniloh",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_9",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[1/2\\]: Head into Velara\\."
+  }, {
+    "point": "crystal_connection_9",
+    "type": "CHAT",
+    "regex": "\\[Macuniloh\\] I need it briefly first\\. I'll need to better attune it to our modern systems\\. Ever wonder why this teleporter doesn't take you into Velara correctly\\? It's not well attuned\\. Now go, outsider\\. Be safe\\."
+  }]
+}, {
+  "identifier": "crystal_connection_9",
+  "waypoint": {
+    "x": 496.0,
+    "y": 73.0,
+    "z": 132.0,
+    "name": "Sewers",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_10",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[2/2\\]: Once inside Velara, find the crystal\\."
+  }]
+}, {
+  "identifier": "crystal_connection_10",
+  "waypoint": {
+    "x": 1008.5,
+    "y": 182.5,
+    "z": 750.5,
+    "name": "Crystal",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_11",
+    "type": "LOCATION",
+    "x": 1008.5,
+    "y": 182.5,
+    "z": 750.5,
+    "radius": 3.0
+  }, {
+    "point": "crystal_connection_11",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[2/2\\]: Once inside Velara, find the crystal\\."
+  }]
+}, {
+  "identifier": "crystal_connection_11",
+  "waypoint": {
+    "x": 967.5,
+    "y": 225.5,
+    "z": 728.5,
+    "name": "Escape",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_10",
+    "type": "CHAT",
+    "regex": "The Crystal Connection \\[2/2\\]: Once inside Velara, find the crystal\\."
+  }, {
+    "point": "crystal_connection_12",
+    "type": "LOCATION",
+    "x": 967.5,
+    "y": 225.5,
+    "z": 728.5,
+    "radius": 3.0
+  }, {
+    "point": "crystal_connection_12",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Now that you have the crystal, return to Macuniloh\\."
+  }]
+}, {
+  "identifier": "crystal_connection_12",
+  "waypoint": {
+    "x": 463.5,
+    "y": 85.5,
+    "z": -238.5,
+    "name": "Ta'Eldim",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_13",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Now that you have the crystal, return to Macuniloh\\."
+  }, {
+    "point": "crystal_connection_13",
+    "type": "LOCATION",
+    "x": 463.5,
+    "y": 85.5,
+    "z": -238.5,
+    "radius": 5.0
+  }]
+}, {
+  "identifier": "crystal_connection_13",
+  "waypoint": {
+    "x": 482.0,
+    "y": 191.0,
+    "z": -348.0,
+    "name": "Macuniloh",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_14",
+    "type": "CHAT",
+    "regex": "\\[Macuniloh\\] The alarm\\.\\.\\. Something's happening\\. I must be taking you to safety. Come\\."
+  }, {
+    "point": "crystal_connection_14",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Talk to T'Xoc\\."
+  }, {
+    "point": "crystal_connection_12",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Now that you have the crystal, return to Macuniloh\\."
+  }, {
+    "point": "crystal_connection_14",
+    "type": "LOCATION",
+    "x": -97.5,
+    "y": 151.5,
+    "z": -373.5,
+    "radius": 2.0
+  }]
+}, {
+  "identifier": "crystal_connection_14",
+  "waypoint": {
+    "x": -92.5,
+    "y": 151.5,
+    "z": -377.5,
+    "name": "T'Xoc",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_15",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Head into Ta'Eldim and clean up your mess\\."
+  }, {
+    "point": "crystal_connection_13",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Talk to T'Xoc\\."
+  }, {
+    "point": "crystal_connection_15",
+    "type": "LOCATION",
+    "x": -37.5,
+    "y": 185.5,
+    "z": -403.5,
+    "radius": 2.0
+  }]
+}, {
+  "identifier": "crystal_connection_15",
+  "waypoint": {
+    "x": -73.0,
+    "y": 197.0,
+    "z": -394.0,
+    "name": "The Mess in Question",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_16",
+    "type": "CHAT",
+    "regex": "\\[T'Calin\\] Thank you for foolishly opening the way into this town, hero\\."
+  }]
+}, {
+  "identifier": "crystal_connection_16",
+  "waypoint": {
+    "name": null
+  },
+  "next": [{
+    "point": "crystal_connection_17",
+    "type": "CHAT",
+    "regex": "\\[T'Calin\\] I am defeated... Nature will have its revenge\\."
+  }]
+}, {
+  "identifier": "crystal_connection_17",
+  "waypoint": {
+    "x": -51.5,
+    "y": 197.5,
+    "z": -379.0,
+    "name": "Teleporter",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_17",
+    "type": "LOCATION",
+    "x": -51.5,
+    "y": 197.5,
+    "z": -379.0,
+    "radius": 3.0
+  }, {
+    "point": "crystal_connection_18",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Find the mage in charge of Sierhaven's teleporters\\."
+  }]
+}, {
+  "identifier": "crystal_connection_18",
+  "waypoint": {
+    "x": -758.0,
+    "y": 126.0,
+    "z": 75.0,
+    "name": "Cinerva",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_19",
+    "type": "CHAT",
+    "regex": "\\[Cinerva\\] I'd say that worked! Why don't you go give the new teleporter a try? See how your Tlaxan friends are holding up\\. I have to speak to Vargos\\. We're going to need to have a meeting with the Tlaxans of Ta'Eldim\\.\\.\\."
+  }, {
+    "point": "crystal_connection_19",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Return to Ta'Eldim through the brand new teleporter! Then talk to Macuniloh\\."
+  }]
+}, {
+  "identifier": "crystal_connection_19",
+  "waypoint": {
+    "x": -771.0,
+    "y": 119.0,
+    "z": 82.0,
+    "name": "Teleporter",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_20",
+    "type": "LOCATION",
+    "x": 480.5,
+    "y": 191.5,
+    "z": -348.0,
+    "radius": 3.0
+  }, {
+    "point": "crystal_connection_20",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Return to Ta'Eldim through the brand new teleporter! Then talk to Macuniloh\\."
+  }]
+}, {
+  "identifier": "crystal_connection_20",
+  "waypoint": {
+    "x": 482.5,
+    "y": 191.5,
+    "z": -347.5,
+    "name": "Macuniloh",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_19",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Return to Ta'Eldim through the brand new teleporter! Then talk to Macuniloh\\."
+  }, {
+    "point": "crystal_connection_21",
+    "type": "LOCATION",
+    "x": 514.5,
+    "y": 162.5,
+    "z": -371.0,
+    "radius": 3.0
+  }, {
+    "point": "crystal_connection_21",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Speak with T'Xoc\\."
+  }]
+}, {
+  "identifier": "crystal_connection_21",
+  "waypoint": {
+    "x": 518.0,
+    "y": 162.0,
+    "z": -375.0,
+    "name": "T'Xoc",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_20",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Speak with T'Xoc\\."
+  }, {
+    "point": "crystal_connection_22",
+    "type": "CHAT",
+    "regex": "\\[T'Xoc\\] For real\\. I believe you were correct\\. But you will NEVER mess with the magic of this town again\\. We cannot risk more attacks on our home\\. But at least we have the potential for a deep alliance with Sierhaven, unbelievably\\. He would like to speak with you too\\."
+  }, {
+    "point": "crystal_connection_22",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Chat with Vargos\\."
+  }]
+}, {
+  "identifier": "crystal_connection_22",
+  "waypoint": {
+    "x": 518.0,
+    "y": 162.0,
+    "z": -372.0,
+    "name": "Vargos",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "crystal_connection_23",
+    "type": "CHAT",
+    "regex": "[Vargos] You've done... interesting work here. I shall await more news on your work, and work with the rest of the council - and the King too, of course, yes - on the nature of this alliance\\. T'Xoc has something for you now\\. Good seeing you again\\."
+  }, {
+    "point": "crystal_connection_23",
+    "type": "CHAT",
+    "regex": "The Crystal Connection: Wrap up with T'Xoc\\."
+  }]
+}, {
+  "identifier": "crystal_connection_23",
+  "waypoint": {
+    "x": 518.0,
+    "y": 162.0,
+    "z": -375.0,
+    "name": "T'Xoc",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "end",
+    "type": "CHAT",
+    "regex": "THE CRYSTAL CONNECTION COMPLETE!"
+  }]
+}, {
+  "identifier": "elder_scrolls_",
+  "waypoint": null,
+  "next": [{
+    "point": "elder_scrolls_1",
+    "type": "CHAT",
+    "regex": "Monumenta Quests: Finding the starting NPC for The Elder's Scrolls\\."
+  }]
+}, {
+  "identifier": "elder_scrolls_1",
+  "waypoint": {
+    "x": 472.5,
+    "y": 196.5,
+    "z": -354.5,
+    "name": "T'Xoc",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "elder_scrolls_2",
+    "type": "CHAT",
+    "regex": "QUEST : THE ELDER'S SCROLLS"
+  }, {
+    "point": "elder_scrolls_2",
+    "type": "CHAT",
+    "regex": "The Elder's Scrolls \\[1/2\\]: Enter the Room of Projection\\."
+  },{
+    "point": "elder_scrolls_3",
+    "type": "LOCATION",
+    "x": 539.5,
+    "y": 171.5,
+    "z": -405.5,
+    "radius": 3.0
+  }]
+}, {
+  "identifier": "elder_scrolls_2",
+  "waypoint": {
+    "x": 490.0,
+    "y": 188.0,
+    "z": -381.0,
+    "name": "Room of Projection",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "elder_scrolls_3",
+    "type": "LOCATION",
+    "x": 539.5,
+    "y": 171.5,
+    "z": -405.5,
+    "radius": 3.0
+  }, {
+    "point": "elder_scrolls_3",
+    "type": "CHAT",
+    "regex": "The Elder's Scrolls \\[2/2\\]: Approach the cracked mirror."
+  }]
+}, {
+  "identifier": "elder_scrolls_3",
+  "waypoint": {
+    "x": 522.0,
+    "y": 168.0,
+    "z": -405.0,
+    "name": "Mirror",
+    "texture": "t_lm.png"
+  },
+  "next": [{
+    "point": "elder_scrolls_4",
+    "type": "CHAT",
+    "regex": "As you approach the strange mirror, it seems to shatter outward, pulling you inside\\."
+  },{
+    "point": "elder_scrolls_2",
+    "type": "CHAT",
+    "regex": "The Elder's Scrolls \\[1/2\\]: Enter the Room of Projection\\."
+  },{
+    "point": "elder_scrolls_4",
+    "type": "CHAT",
+    "regex": "The Elder's Scrolls: Guide your soul through the first puzzle\\."
+  }]
+},{
+  "identifier": "elder_scrolls_4",
+  "waypoint": {
+    "name": null
+  },
+  "next": []
+}]

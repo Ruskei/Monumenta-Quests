@@ -1,0 +1,253 @@
+[
+  {
+    "identifier": "pyromania_0",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Monumenta Quests: Finding the starting NPC for Pyromania\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[1/4\\]: Carbocius needs magma samples\\. Retrieve one from the Blackroot Jungle's Molten Chasm, just east of Farr\\."
+      }
+    ],
+    "waypoint": {
+      "x": 608.5,
+      "y": 101.5,
+      "z": 156.5,
+      "name": "(Pyromania) Carbocius",
+      "texture": "pyromania.png"
+    }
+  },
+  {
+    "identifier": "pyromania_1",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[1/4\\]: Carbocius needs magma samples\\. Retrieve one from the Blackroot Jungle's Molten Chasm, just east of Farr\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[2/4\\]: Carbocius needs magma samples\\. Retrieve one from the Jaguar Tooth Mountains' Fire Cave, north of Farr\\."
+      }
+    ],
+    "waypoint": {
+      "x": 831.5,
+      "y": 19.5,
+      "z": 68.5,
+      "name": "Rhyolitic Magma",
+      "texture": "rhyolitic_magma.png"
+    }
+  },
+  {
+    "identifier": "pyromania_2",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[2/4\\]: Carbocius needs magma samples\\. Retrieve one from the Jaguar Tooth Mountains' Fire Cave, north of Farr\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[3/4\\]: Carbocius needs magma samples\\. Retrieve one from the Korbar Highlands' Volcano, just west of Highwatch\\."
+      }
+    ],
+    "waypoint": {
+      "x": 579.5,
+      "y": 56.5,
+      "z": -218.5,
+      "name": "Andesitic Magma",
+      "texture": "andesitic_magma.png"
+    }
+  },
+  {
+    "identifier": "pyromania_3",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[3/4\\]: Carbocius needs magma samples\\. Retrieve one from the Korbar Highlands' Volcano, just west of Highwatch\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[4/4\\]: Return to Carbocius once you have all three magma samples\\."
+      }
+    ],
+    "waypoint": {
+      "x": 954.5,
+      "y": 78.5,
+      "z": -146.5,
+      "name": "Basalitic Magma",
+      "texture": "basaltic_magma.png"
+    }
+  },
+  {
+    "identifier": "pyromania_4",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Pyromania \\[4/4\\]: Return to Carbocius once you have all three magma samples\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Ha, brilliant! Look at those dolerite inclusions, simply beautiful\\. Here, have these\\. It occurs to me you might have preferred this before acquiring these samples, but look at these extrusive patterns!"
+      }
+    ],
+    "waypoint": {
+      "x": 608.5,
+      "y": 101.5,
+      "z": 156.5,
+      "name": "Carbocius",
+      "texture": "pyromania.png"
+    }
+  },
+  {
+    "identifier": "unveiled_0",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Monumenta Quests: Finding the starting NPC for Unveiled\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Unveiled: Work with Josiah on the magic to learn how to infiltrate the Sons of the Forest's fortress\\."
+      }
+    ],
+    "waypoint": {
+      "x": 1175.5,
+      "y": 143.5,
+      "z": -120.5,
+      "name": "Josiah",
+      "texture": "unveiled.png"
+    }
+  },
+  {
+    "identifier": "unveiled_1",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Unveiled: Work with Josiah on the magic to learn how to infiltrate the Sons of the Forest's fortress\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Mistleaves and a Wand of Blood! Just what I needed\\. Now\\.\\.\\. the thing with a Mistleaf Hood is that they can only be put on your head once, if you take them off they lose their shape and can't be worn anymore\\. I'll make a bunch, so let me know when you want one. Until then, you should check back in with Haynes, I think she has a plan\\."
+      }
+    ],
+    "waypoint": {
+      "x": 1138.5,
+      "y": 126.5,
+      "z": 75.5,
+      "name": "Mistleafs",
+      "texture": "mistleaf.png"
+    }
+  },
+  {
+    "identifier": "unveiled_2",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Unveiled: Work with Josiah on the magic to learn how to infiltrate the Sons of the Forest's fortress\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Mistleaves and a Wand of Blood! Just what I needed\\. Now\\.\\.\\. the thing with a Mistleaf Hood is that they can only be put on your head once, if you take them off they lose their shape and can't be worn anymore\\. I'll make a bunch, so let me know when you want one. Until then, you should check back in with Haynes, I think she has a plan\\."
+      }
+    ],
+    "waypoint": {
+      "x": 1071.5,
+      "y": 102.5,
+      "z": -174.5,
+      "name": "Wand of Blood",
+      "texture": "wand_of_blood.png"
+    }
+  },
+  {
+    "identifier": "tlaxan_troubles_0",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "Monumenta Quests: Finding the teleporter to the starting NPC for Tlaxan Troubles\\."
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "LOCATION",
+        "x": -733.5,
+        "y": 95.5,
+        "z": 72.5,
+        "radius": 5
+      }
+    ],
+    "waypoint": {
+      "x": -733.5,
+      "y": 95.5,
+      "z": 72.5,
+      "name": "T'Lm",
+      "texture": "t_lm.png"
+    }
+  },
+  {
+    "identifier": "tlaxan_troubles_1",
+    "triggers": [
+      {
+        "type": "LOCATION",
+        "x": -733.5,
+        "y": 95.5,
+        "z": 72.5,
+        "radius": 5
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "CHAT",
+        "regex": "\\[T'Lm\\] I see you have claimed the Magenta Wool\\. Well done\\."
+      }
+    ],
+    "waypoint": {
+      "x": 480.5,
+      "y": 26.5,
+      "z": 50.5,
+      "name": "T'Lm",
+      "texture": "t_lm.png"
+    }
+  },
+  {
+    "identifier": "tlaxan_troubles_2",
+    "triggers": [
+      {
+        "type": "CHAT",
+        "regex": "\\[T'Lm\\] Now, head back within the ruins of Velara\\. There is a side passage containing a cauldron\\. If you place water into the Cauldron, you will find the sacred herbs\\. Each time you add water, you will receive one herb\\. Be sure to bring water with you!"
+      }
+    ],
+    "del_triggers": [
+      {
+        "type": "LOCATION",
+        "x": 493.5,
+        "y": 72.5,
+        "z": 131.5,
+        "radius": 5
+      }
+    ],
+    "waypoint": {
+      "x": 493.5,
+      "y": 72.5,
+      "z": 131.5,
+      "name": "Sewers",
+      "texture": "t_lm.png"
+    }
+  }
+]

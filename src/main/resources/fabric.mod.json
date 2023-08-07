@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gem",
+  "version": "${version}",
+
+  "name": "Generally Enough Monumenta",
+  "description": "JEI for Monumenta and more.",
+  "authors": [
+    "Jupiterr"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/"
+  },
+
+  "license": "MIT",
+  "icon": "assets/gem/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ],
+    "client": [
+      "com.jupiterr.gem.GEMMod"
+    ]
+  },
+  "mixins": [
+    "gem.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
